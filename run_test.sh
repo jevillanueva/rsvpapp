@@ -1,5 +1,5 @@
 #!/bin/bash
-virtualenv rsvpapp --system-site-packages -v
+virtualenv rsvpapp
 source rsvpapp/bin/activate
 pip install --upgrade pip
 pip install -r requirements.txt
